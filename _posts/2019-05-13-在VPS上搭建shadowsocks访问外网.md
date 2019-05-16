@@ -121,14 +121,14 @@ Enjoy it!</pre>
 <p><img src="https://img2018.cnblogs.com/blog/1201453/201905/1201453-20190513163143623-357908376.png" alt="" /></p>
 <p>去chrome商场安装&nbsp;<a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?utm_source=chrome-ntp-icon" target="_blank">SwitchyOmega插件</a></p>
 <p>打开SwitchyOmega的选项</p>
-<p><img src="https://img2018.cnblogs.com/blog/1201453/201905/1201453-20190513163356143-182066501.png" alt="" /></p>
+<p><img src="https://github.com/cjy513203427/cjy513203427.github.io/blob/master/img/2019-05-13-1.png" alt="" /></p>
 <p>配置auto switch模式，添加条件，域名通配符为"*.youtube.com"</p>
-<p><img src="https://img2018.cnblogs.com/blog/1201453/201905/1201453-20190513163335988-961416081.png" alt="" /></p>
+<p><img src="https://github.com/cjy513203427/cjy513203427.github.io/blob/master/img/2019-05-13-2.png" alt="" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>测试，浏览<a href="https://www.youtube.com/">https://www.youtube.com/</a></p>
 <p>访问成功</p>
-<p><img src="https://img2018.cnblogs.com/blog/1201453/201905/1201453-20190513163709529-65839649.png" alt="" /></p>
+<p><img src="https://github.com/cjy513203427/cjy513203427.github.io/blob/master/img/2019-05-13-3.png" alt="" /></p>
 <h3>3.4 移动端配置</h3>
 <p>下载ShowdockSocks Android :&nbsp;<a href="https://github.com/shadowsocks/shadowsocks-android/releases" rel="nofollow" target="_blank">https://github.com/shadowsocks/shadowsocks-android/releases</a></p>
 <p>配置信息如下</p>
