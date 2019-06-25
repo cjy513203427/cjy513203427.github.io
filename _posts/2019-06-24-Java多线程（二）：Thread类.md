@@ -503,7 +503,7 @@ MyThread11执行完毕之后我再执行
 可以看到，main线程在mt线程之后执行。mt调用join方法，使main线程阻塞，待mt线程执行完毕，方可执行main线程。
 
 ## Thread类的静态方法
-###currentThread()
+### currentThread()
 返回当前正在执行线程的引用
 ```java
 public class MyThread12 extends Thread{
