@@ -13,7 +13,7 @@ tags:                               #标签
 ### start()
 start方法内部会调用方法start方法启动一个线程，该线程返回start方法，同时Java虚拟机调用native start0启动另一个线程调用run方法，此时有两个线程并行执行；
 我们来分析下start0方法，start0到底是如何调用run方法的
-![](img/2019-06-24-Java多线程（二）：Thread类/img1.png)
+![](https://raw.githubusercontent.com/cjy513203427/cjy513203427.github.io/master/img/2019-06-24-Java多线程（二）：Thread类/img1.png)
 Thread类里有一个本地方法叫registerNatives，此方法注册一些本地方法给Thread类使用
 在[OpenJDK官网](http://hg.openjdk.java.net)找到Thread.c
 ```C++
@@ -269,7 +269,7 @@ main thread begin, priority = 5
 main thread end, priority = 5
 MyThread07_0 run priority = 5
 ```
-![](img/2019-06-24-Java多线程（二）：Thread类/img2.png)
+![](https://raw.githubusercontent.com/cjy513203427/cjy513203427.github.io/master/img/2019-06-24-Java多线程（二）：Thread类/img2.png)
 线程的默认优先级是5
 再看如下的例子
 ```java
@@ -408,7 +408,7 @@ public class MyThread09 extends Thread{
 ```
 我们自定义MyThread09线程的run方法里是死循环，如果是用户线程，它应该永远地执行下去，现在把它设置成守护线程。
 注意：mt.setDaemon(true);要在mt.start();之前，见
-![](img/2019-06-24-Java多线程（二）：Thread类/img3.png)
+![](https://raw.githubusercontent.com/cjy513203427/cjy513203427.github.io/master/img/2019-06-24-Java多线程（二）：Thread类/img3.png)
 否则会抛出IllegalThreadStateException异常
 运行结果如下
 ```graph
@@ -655,5 +655,5 @@ public class MyThread15 extends Thread {
 ```
 可以看到，任务执行完毕，当我们把Thread.yield();注释掉，执行时间只需要7ms。说明当前线程放弃了一些CPU资源。
 ### interrupted()
-![](img/2019-06-24-Java多线程（二）：Thread类/img4.png)
+![](https://raw.githubusercontent.com/cjy513203427/cjy513203427.github.io/master/img/2019-06-24-Java多线程（二）：Thread类/img4.png)
 判断当前线程是否中断，静态版的isInterrupted方法。多线程中断机制，后续会详细解析。
