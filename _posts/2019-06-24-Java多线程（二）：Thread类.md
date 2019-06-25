@@ -1,3 +1,14 @@
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      Java多线程（二）           # 标题 
+subtitle:   Thread类      #副标题
+date:       2019-06-24             # 时间
+author:     Rest探路者                      # 作者
+header-img: img/post-bg-re-vs-ng2.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - Java多线程
+---
 ## Thread类的实例方法
 ### start()
 start方法内部会调用方法start方法启动一个线程，该线程返回start方法，同时Java虚拟机调用native start0启动另一个线程调用run方法，此时有两个线程并行执行；
