@@ -3,3 +3,6 @@ logo: /assets/img/logo.png
 description: Full Stack Developer @ EXOR PRO GmbH | AI/ML Enthusiast | Ilmenau, Germany
 show_downloads: false
 google_analytics:
+
+plugins:
+  - jekyll-seo-tag
