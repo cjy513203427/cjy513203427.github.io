@@ -1,11 +1,10 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "jekyll-seo-tag", "~> 2.8"
 
 # GitHub Pages compatible versions
 group :jekyll_plugins do
-  gem "jekyll-seo-tag"
+  gem "jekyll-seo-tag", "~> 2.8"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
