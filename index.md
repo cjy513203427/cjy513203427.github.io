@@ -4,14 +4,13 @@ layout: default
 
 ## About Me
 
-I am a Full Stack Developer with a Master's degree in Computer Science from TU Darmstadt. My research interests include **machine learning**, **anomaly detection**, and **compiler optimization**. I am currently working at EXOR PRO GmbH while seeking PhD opportunities in AI/ML or system programming.
+I am a Full Stack Developer with a Master's degree in Computer Science from TU Darmstadt. My research interests lie in **machine learning**, **anomaly detection**, and **compiler optimization**, with a particular focus on bridging theoretical research and industrial applications. I am passionate about advancing the state-of-the-art in AI/ML and system-level programming through both academic research and practical implementation.
 
 ---
 
 ## 📧 Contact
 
 - **Email:** cjy513203427@gmail.com
-- **Phone:** +49 17684467268
 - **Location:** Ilmenau, Germany
 - **LinkedIn:** [jinyao-chen](https://www.linkedin.com/in/jinyao-chen-8b5b29225/)
 - **GitHub:** [cjy513203427](https://github.com/cjy513203427)
