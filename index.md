@@ -2,122 +2,57 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# 😃 Focusing
 
-[Link to another page](./another-page.html).
+## About Me
 
-There should be whitespace between paragraphs.
+Hi! I'm **Jinyao Chen**, a passionate developer currently based in Germany. I focus on full-stack development in industrial software, with particular interests in compilers and Linux kernel exploration.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+**Program something fun** is my motto.
 
-# Header 1
+## Education
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+**MSc Computer Science**
+TU Darmstadt, Germany
 
-## Header 2
+## Professional Experience
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+- Full-stack development in industrial software
+- Open-source contributions (notably [anomalib](https://github.com/openvinotoolkit/anomalib) - 5.2k⭐)
+- Compiler research and development
+- Linux kernel exploration
 
-### Header 3
+## Skills & Languages
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### Programming
+- Full-stack development
+- System programming
+- Anomaly detection & ML
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### Human Languages
+- 🇨🇳 Chinese (Native)
+- 🇬🇧 English (Fluent)
+- 🇩🇪 German (Fluent)
+- 🇯🇵 Japanese (B2)
+- 🇰🇷 Korean (A1)
+- 🇷🇺 Russian (A1)
 
-#### Header 4
+## Beyond Coding
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+When I'm not programming, you can find me:
+- 🕺 Breakdancing
+- 🎸 Playing guitar
+- 🎨 Creating visual arts
 
-##### Header 5
+## Connect with Me
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+- **GitHub:** [cjy513203427](https://github.com/cjy513203427)
+- **Email:** [cjy513203427@gmail.com](mailto:cjy513203427@gmail.com)
+- **LinkedIn:** [jinyao-chen](https://www.linkedin.com/in/jinyao-chen-8b5b29225)
+- **Stack Overflow:** [jinyao](https://stackoverflow.com/users/10899701/jinyao)
+- **HuggingFace:** [gt111lk](https://huggingface.co/gt111lk)
+- **Google Scholar:** [Profile](https://scholar.google.com)
 
-###### Header 6
+---
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+<small>💡 Interested in collaboration? Feel free to reach out!</small>
