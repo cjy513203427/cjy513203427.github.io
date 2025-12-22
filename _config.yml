@@ -1,8 +1,10 @@
 title: Jinyao Chen
-logo: /assets/img/logo.png
-description: Full Stack Developer @ EXOR PRO GmbH | AI/ML Enthusiast | Ilmenau, Germany
-show_downloads: false
-google_analytics:
+description: MSc Computer Science | Full Stack Developer | AI/ML Research
+url: https://cjy513203427.github.io
+baseurl: ""
 
 plugins:
   - jekyll-seo-tag
+
+# Remove theme to use custom layout
+# theme: jekyll-theme-minimal
