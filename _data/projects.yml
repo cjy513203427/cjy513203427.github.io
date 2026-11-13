@@ -1,0 +1,67 @@
+- name: KpopBase
+  id: kpopbase
+  category: Music discovery
+  domain: k-pop-base.com
+  url: https://k-pop-base.com/
+  image: /assets/projects/kpopbase.png
+  image_alt: KpopBase homepage featuring K-pop groups, artist discovery, and an encyclopedia search.
+  description: A structured K-pop encyclopedia. Discover groups and artists, explore discographies, follow the charts, and keep personal memory albums.
+  tags:
+    - Groups & artists
+    - Discographies
+    - Charts & statistics
+  features:
+    - name: Group discovery
+      description: Search by group or company and filter by group type.
+      url: https://k-pop-base.com/groups
+      image: /assets/projects/kpopbase-groups.png
+      image_alt: KpopBase group directory with search, group filters, and photo cards.
+    - name: Profiles & members
+      description: Explore debut details, fandoms, and artist lineups.
+      url: https://k-pop-base.com/group/twice
+      image: /assets/projects/kpopbase-profile.png
+      image_alt: TWICE profile showing group information and individual member cards.
+    - name: Album library
+      description: Browse cover art, release details, and album filters.
+      url: https://k-pop-base.com/albums
+      image: /assets/projects/kpopbase-albums.png
+      image_alt: KpopBase album library with cover art, search, and release information.
+    - name: Charts & statistics
+      description: Explore debut trends, generations, and demographics.
+      url: https://k-pop-base.com/charts
+      image: /assets/projects/kpopbase-charts.png
+      image_alt: KpopBase statistics dashboard with group filters and a debut timeline chart.
+
+- name: ChipRanks
+  id: chipranks
+  category: Hardware comparison
+  domain: chipranks.com
+  url: https://chipranks.com/
+  image: /assets/projects/chipranks.png
+  image_alt: ChipRanks HardwareLadder homepage introducing hardware performance rankings.
+  description: Hardware performance, made comparable. Explore visual ladders for desktop and laptop CPUs and GPUs, mobile chips, AI accelerators, and server processors.
+  tags:
+    - Performance ladders
+    - Chip specifications
+    - AI & server hardware
+  features:
+    - name: Desktop GPU ladder
+      description: Compare graphics cards across vendors and generations.
+      url: https://chipranks.com/gpu/
+      image: /assets/projects/chipranks-gpu.png
+      image_alt: Desktop GPU ladder comparing NVIDIA and AMD graphics cards across generations.
+    - name: Chip specifications
+      description: Inspect memory, clock speeds, power, and ladder position.
+      url: https://chipranks.com/gpu/nvidia-rtx5090d-v2/
+      image: /assets/projects/chipranks-detail.png
+      image_alt: RTX 5090 D v2 page with ladder position, memory, clocks, and power specifications.
+    - name: AI accelerator rankings
+      description: Browse NVIDIA, AMD Instinct, and Intel Gaudi hardware.
+      url: https://chipranks.com/ai-gpu/
+      image: /assets/projects/chipranks-ai-gpu.png
+      image_alt: AI accelerator ladder featuring NVIDIA, AMD Instinct, and Intel Gaudi hardware.
+    - name: Server CPU rankings
+      description: Explore Xeon, EPYC, and Arm processors by SPECrate results.
+      url: https://chipranks.com/server-cpu/
+      image: /assets/projects/chipranks-server-cpu.png
+      image_alt: Server CPU performance ladder with Intel Xeon and AMD EPYC processors.

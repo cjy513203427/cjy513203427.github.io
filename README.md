@@ -1,26 +1,26 @@
 # Jinyao Chen - Personal Website
 
-My personal academic website built with Jekyll and hosted on GitHub Pages.
+My personal portfolio built with Jekyll and hosted on GitHub Pages.
 
 🌐 **Live Site:** [https://cjy513203427.github.io](https://cjy513203427.github.io)
 
 ## About
 
-This website showcases my academic background, research projects, and professional experience. It's designed with a clean, single-column layout optimized for academic/PhD applications.
+This website puts independent products and developer tools first: KpopBase, ChipRanks, an InterSystems IRIS MCP server, and an ObjectScript VS Code extension. Research, professional experience, and education follow the portfolio.
 
 ## Features
 
-- 📚 Research & Projects showcase
-- 💼 Professional experience
-- 🎓 Education background
-- 🔗 Links to publications and open source contributions
-- 📱 Responsive design
+- Live projects with local screenshots and direct website links
+- Expandable feature previews for KpopBase and ChipRanks
+- Open-source tools, research, and contributions
+- Professional experience, education, and contact links
+- Responsive layout, keyboard navigation, and reduced-motion support
 
 ## Tech Stack
 
 - **Jekyll** - Static site generator
 - **GitHub Pages** - Hosting
-- **Custom Layout** - Single-column centered design
+- **Custom Layout** - Responsive portfolio with self-hosted fonts
 - **GitHub Actions** - Automated deployment
 
 ## Local Development
@@ -45,13 +45,20 @@ The site automatically deploys via GitHub Actions when changes are pushed to the
 .
 ├── _layouts/          # Custom layout templates
 │   └── default.html   # Main page layout
+├── _includes/
+│   └── project-card.html # Reusable project showcase
+├── _data/
+│   └── projects.yml    # Live projects and feature previews
 ├── assets/
 │   ├── css/
 │   │   └── style.scss # Custom styles
-│   └── img/           # Images and icons
+│   ├── img/           # Portrait and icons
+│   └── projects/      # Project screenshots
 ├── _config.yml        # Jekyll configuration
 └── index.md           # Homepage content
 ```
+
+Edit `_data/projects.yml` to update the featured projects, website links, tags, or screenshot previews. The page uses native HTML disclosures and works without JavaScript.
 
 ## Contact
 

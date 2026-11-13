@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en' }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f9fc">
     {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="icon" href="{{ '/assets/img/profile_icon.png' | relative_url }}" type="image/png">
+    <link rel="preload" href="{{ '/assets/fonts/Noto-Sans-regular/Noto-Sans-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <img src="{{ "/assets/img/profile_icon.png" | relative_url }}" alt="{{ site.title }}" class="profile-photo">
-        <h1 class="site-title">{{ site.title }}</h1>
-        <p class="site-description">{{ site.description }}</p>
-      </header>
-
-      <main class="content">
-        {{ content }}
-      </main>
-
-      <footer class="footer">
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-      </footer>
-    </div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home"><span class="brand-mark" aria-hidden="true">jc<span>.</span></span><span>{{ site.title }}</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#open-source">Open source</a>
+          <a href="#about">About</a>
+          <a class="nav-contact" href="mailto:{{ site.email }}">Get in touch <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="container" tabindex="-1">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}</p>
+        <p>Independent products. Open-source tools.</p>
+        <a href="#main">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
   </body>
 </html>

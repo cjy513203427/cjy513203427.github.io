@@ -1,10 +1,10 @@
 title: Jinyao Chen
-description: MSc Computer Science | Full Stack Developer | AI/ML Research
+description: Full-stack developer building independent web products, agentic AI infrastructure, and open-source developer tools.
 url: https://cjy513203427.github.io
 baseurl: ""
+lang: en
+author: Jinyao Chen
+email: cjy513203427@gmail.com
 
 plugins:
   - jekyll-seo-tag
-
-# Remove theme to use custom layout
-# theme: jekyll-theme-minimal
